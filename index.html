@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Signup</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 	<main>
-		<img src="img/logo-intuit.png" class="parent-company">
-		<div class="sponsors-container">
-			<div class="sponsors">
-				<img src="img/mint-logo.png">
+		<img width="140" src="img/logo-intuit.png" class="parent-company">
+		<div class="sponsors-container flex-center">
+			<div class="sponsors flex-center">
+				<img s class="flex-inverse"rc="img/mint-logo.png">
 				<p>mint</p>
 			</div>
-			<div class="sponsors">
+			<div class="sponsors flex-center">
 				<img src="img/quickbooks-logo.png">
 				<p>quickbooks</p>
 			</div>
-			<div class="sponsors">
+			<div class="sponsors flex-center">
 				<img src="img/turbotax-logo.png">
 				<p>turbotax</p>
 			</div>
-		</div>
-		<form>
+	    </div>
+		<form class="form-container flex-inverse mt-3">
 			<h2>Create an Intuit account<br></h2>
-			<p>One account for everything Intuit, including Mint.<br></p>
+			<p class="mt-3" >One account for everything Intuit, including Mint.<br></p>
 			<a href="#">Learn more</a>
 
-			<fieldset class="account-info">
-				<label>
+			<fieldset class="account-info flex-inverse ">
+				<label class="flex-inverse">
 					Email address
-					<input type="email" name="email" required>
+					<input class="mt-1" type="email" name="email" required>
 				</label>
-				<label>
+				<label class="flex-inverse">
 					Phone (recommended)
-					<input type="tel" name="phone">
+					<input class="mt-1" type="tel" name="phone">
 					<span>Standard call, messaging or data rates may apply.</span>
 				</label>
-				<label>
+				<label class="flex-inverse">
 					Password
-					<input type="password" name="password">
-					<img src="img/password-logo.png">
+					<input class="mt-1" type="password" name="password">
+					<img class="pass-icon" width="18" src="img/password-logo.png">
 				</label>
 			</fieldset>
 
-			<fieldset class="submit-container">
-				<button type="submit">
-					<img src="img/lock-logo.png">
+			<fieldset class="submit-container mt-3">
+				<button type="submit" class="flex-center">
+					<img width="20"  src="img/magnetic-lock.svg">
 					Create Account
 				</button>
 			</fieldset>

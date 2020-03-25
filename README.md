@@ -1,6 +1,6 @@
 # Mint signup-page clone
 
-> this is a clone of the Intuit mint sign-up page. The goal was to make it look as similar.
+> this is a clone of the Intuit mint sign-up page. The goal was to make it look as similar as possible.
 
 ![screenshot](img/screenshot.png)
 

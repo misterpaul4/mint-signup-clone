@@ -1,158 +1,158 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #eeee;
-    color: rgb(83, 83, 83);
-    font-family: "Montserrat", sans-serif;
+  background-color: #eeee;
+  color: rgb(83, 83, 83);
+  font-family: "Montserrat", sans-serif;
 }
 
 fieldset {
-    border: 0;
+  border: 0;
 }
 
 .form-container {
-    background-color: white;
-    border: 1px solid rgb(199, 199, 199);
-    border-radius: 5px;
-    padding: 1.5rem;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    position: relative;
+  background-color: white;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
 }
 .form-container h2 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .account-info label {
-    text-align: left;
-    margin-top: 1.5rem;
-    position: relative;
-    width: 100%;
+  text-align: left;
+  margin-top: 1.5rem;
+  position: relative;
+  width: 100%;
 }
 .account-info label span {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 .account-info input {
-    border: 1px solid rgb(177, 177, 177);
-    padding: 0.4rem;
-    border-radius: 4px;
-    width: 100%;
+  border: 1px solid rgb(177, 177, 177);
+  padding: 0.4rem;
+  border-radius: 4px;
+  width: 100%;
 }
 .account-info .pass-icon {
-    position: absolute;
-    right: 6px;
-    color: white;
-    bottom: 5px;
+  position: absolute;
+  right: 6px;
+  color: white;
+  bottom: 5px;
 }
 
 main {
-    text-align: center;
+  text-align: center;
 }
 
 .account-info {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .submit-container button {
-    width: 100%;
-    background-color: #016fb9;
-    color: white;
-    padding: 0.7rem;
-    border-radius: 4px;
-    border: 0;
+  width: 100%;
+  background-color: #016fb9;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 4px;
+  border: 0;
 }
 
 .form-note {
-    padding: 0.5rem;
-    font-size: 0.8rem;
-    margin-bottom: 4rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 4rem;
 }
 
 .form-note p {
-    margin-top: 4rem;
-    background-color: #eeee;
+  margin-top: 4rem;
+  background-color: #eeee;
 }
 
 .captcha {
-    background-color: #eeee;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    border-radius: 5px;
-    left: 0;
-    padding: 1.5rem;
+  background-color: #eeee;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border-radius: 5px;
+  left: 0;
+  padding: 1.5rem;
 }
 
 .captcha p {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 a,
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 a {
-    text-decoration: none;
-    color: #0162b2;
+  text-decoration: none;
+  color: #0162b2;
 }
 
 .footer-proceed-container a:hover {
-    color: rgb(75, 75, 75);
-    text-decoration: underline;
+  color: rgb(75, 75, 75);
+  text-decoration: underline;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
 }
 
 li,
 .sponsors {
-    padding: 0 0.5rem 0 0.5rem;
+  padding: 0 0.5rem 0 0.5rem;
 }
 .sponsors img {
-    margin-right: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .copywrite {
-    max-width: 700px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 3rem;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .mt-1 {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 .mt-2 {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 .mt-3 {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 .mt-4 {
-    margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .flex-inverse {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-between {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

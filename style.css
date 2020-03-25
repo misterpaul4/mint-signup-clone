@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +26,7 @@ fieldset {
   margin: 0 auto;
   position: relative;
 }
+
 .form-container h2 {
   font-weight: 300;
 }
@@ -35,15 +37,18 @@ fieldset {
   position: relative;
   width: 100%;
 }
+
 .account-info label span {
   font-size: 0.8rem;
 }
+
 .account-info input {
   border: 1px solid rgb(177, 177, 177);
   padding: 0.4rem;
   border-radius: 4px;
   width: 100%;
 }
+
 .account-info .pass-icon {
   position: absolute;
   right: 6px;
@@ -59,7 +64,7 @@ main {
   align-items: flex-start;
 }
 
-.submit-container button {
+button .submit-container {
   width: 100%;
   background-color: #016fb9;
   color: white;
@@ -92,10 +97,12 @@ main {
 .captcha p {
   font-size: 0.7rem;
 }
+
 a,
 button {
   cursor: pointer;
 }
+
 a {
   text-decoration: none;
   color: #0162b2;
@@ -116,6 +123,7 @@ li,
 .sponsors {
   padding: 0 0.5rem 0 0.5rem;
 }
+
 .sponsors img {
   margin-right: 0.25rem;
 }
@@ -131,12 +139,15 @@ li,
 .mt-1 {
   margin-top: 0.5rem;
 }
+
 .mt-2 {
   margin-top: 1rem;
 }
+
 .mt-3 {
   margin-top: 1.5rem;
 }
+
 .mt-4 {
   margin-top: 2.5rem;
 }

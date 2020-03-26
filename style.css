@@ -37,6 +37,14 @@ fieldset {
   font-weight: 300;
 }
 
+.parent-company{
+  width: 140px;
+}
+
+.sponsors img{
+  width: 25px;
+}
+
 .account-info label {
   text-align: left;
   margin-top: 1.5rem;
@@ -60,6 +68,10 @@ fieldset {
   right: 6px;
   color: white;
   bottom: 5px;
+}
+
+.pass-icon {
+  width: 18px;
 }
 
 main {

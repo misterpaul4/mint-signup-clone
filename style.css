@@ -16,8 +16,6 @@ body {
   font-size: 0.7rem;
 }
 
-
-
 fieldset {
   border: 0;
 }
@@ -37,11 +35,11 @@ fieldset {
   font-weight: 300;
 }
 
-.parent-company{
+.parent-company {
   width: 140px;
 }
 
-.sponsors img{
+.sponsors img {
   width: 25px;
 }
 
@@ -78,7 +76,7 @@ main {
   text-align: center;
 }
 
-.nav-container{
+.nav-container {
   max-width: 300px;
   width: 100%;
   margin-left: auto;
@@ -87,7 +85,7 @@ main {
   margin-right: 1.5rem;
 }
 
-.nav-container button{
+.nav-container button {
   width: 100px;
 
   font-size: 0.8rem;
@@ -98,7 +96,7 @@ main {
   align-items: flex-start;
 }
 
-.primary-btn{
+.primary-btn {
   width: 100%;
   background-color: #016fb9;
   color: white;
@@ -107,11 +105,11 @@ main {
   border: 0;
 }
 
-.primary-btn span{
+.primary-btn span {
   padding-left: 0.2rem;
 }
 
-.primary-btn img{
+.primary-btn img {
   width: 16px;
 }
 
@@ -197,8 +195,7 @@ li,
 .flex-inverse,
 .flex-between,
 .flex-center,
-.flex-end
- {
+.flex-end {
   display: flex;
 }
 

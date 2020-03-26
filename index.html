@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-container flex-between">
+      <div class="signin-info">
+        <p>Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or Password </a>
+      </div>
+      <button class="primary-btn flex-center">
+        <img src="img/magnetic-lock.svg" alt="lock icon" />
+        Sign in
+      </button>
+    </nav>
+
+    <main>
+      <img src="img/logo-intuit.png" alt="intuit logo" class="parent-company" />
+      <div class="sponsors-container flex-center">
+        <div class="sponsors flex-center">
+          <img class="flex-inverse" alt="mint logo" src="img/mint-logo.jpg" />
+          <p>mint</p>
+        </div>
+        <div class="sponsors flex-center">
+          <img alt="quickbooks logo" src="img/quickbooks-logo.png" />
+          <p>quickbooks</p>
+        </div>
+        <div class="sponsors flex-center">
+          <img alt="turbotax logo" src="img/turbotax-logo.png" />
+          <p>turbotax</p>
+        </div>
+      </div>
+      <form class="form-container flex-inverse mt-3">
+        <h2>Create an Intuit account<br /></h2>
+        <p class="mt-3">
+          One account for everything Intuit, including Mint.<br />
+        </p>
+        <a href="#">Learn more</a>
+
+        <fieldset class="account-info flex-inverse ">
+          <label class="flex-inverse">
+            Email address
+            <input class="mt-1" type="email" name="email" required />
+          </label>
+          <label class="flex-inverse">
+            Phone (recommended)
+            <input class="mt-1" type="tel" name="phone" />
+            <span>Standard call, messaging or data rates may apply.</span>
+          </label>
+          <label class="flex-inverse">
+            Password
+            <input class="mt-1" type="password" name="password" />
+            <img
+              class="pass-icon"
+              alt="password icon"
+              src="img/password-logo.png"
+            />
+          </label>
+        </fieldset>
+
+        <fieldset class="submit-container mt-3">
+          <button type="submit" class="flex-center primary-btn">
+            <img alt="lock icon" src="img/magnetic-lock.svg" />
+            <span>Create Account</span>
+          </button>
+        </fieldset>
+        <div class="form-note mt-4">
+          <em
+            >By clicking Create account, you agree to our
+            <a href="#">Terms</a> and have read and acknowledge our
+            <a href="#">Privacy Statement</a>.</em
+          >
+        </div>
+        <div class="captcha">
+          <p>
+            Invisible reCAPTCHA by Google
+            <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+          </p>
+        </div>
+      </form>
+    </main>
+
+    <footer class="mt-4">
+      <ul class="footer-proceed-container">
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Secuirity</a></li>
+      </ul>
+      <p class="copywrite">
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+  </body>
+</html>
